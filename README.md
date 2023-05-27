@@ -38,8 +38,3 @@ Let's go through the code and explain each function and its use case:
   The getAge() function calculates the age of the child in years based on their birthday and the current timestamp.
   It returns the calculated age by subtracting the birthday from the current timestamp and dividing by the number of seconds in a year (365 days).
 
-
-The purpose of this code is to create a trust fund smart contract where a father can deposit funds that are locked until the child reaches 18 years of age.
-Once the child has reached the withdrawal age, they can call the withdraw() function to receive the entire deposited amount. 
-The deposit() function allows the father to add more funds to the trust fund if desired. 
-The getAge() function is used internally to calculate the age of the child based on their birthday.
